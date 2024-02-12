@@ -23,8 +23,8 @@ setup(
     install_requires=[
         'django>=2.1',
         'djangorestframework',
-        'djangorestframework-camel-case==1.1.2',
-        'drf-orjson-renderer==1.1.3',
+        'djangorestframework-camel-case>=1.1.2',
+        'drf-orjson-renderer>=1.1.3',
     ],
     classifiers=[
         'Environment :: Web Environment',
