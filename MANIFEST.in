@@ -1,0 +1,6 @@
+include README.rst
+include LICENSE
+include requirements.txt
+recursive-include standards *.py
+recursive-include standards/locale *
+recursive-exclude * *.pyc
